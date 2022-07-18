@@ -1,0 +1,27 @@
+*{
+  background-color: aquamarine;
+}
+p{
+  color: blue;
+  text-align: right;
+  }
+h1{
+  color: brown;
+  text-shadow: 1px 1px #FF0000; 
+  }
+h2{
+  text-decoration-line:underline ;
+  text-decoration-style:wavy ;
+  }
+p{
+  font-size: 400%;
+ }
+p {
+  border-style:dotted;
+  border-width: 15px;
+  } 
+h1{
+      border-style: solid;
+      border-color: red green blueviolet yellow;
+  }
+
