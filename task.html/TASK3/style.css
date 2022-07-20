@@ -1,27 +1,44 @@
-*{
-  background-color: aquamarine;
+body {
+  background-image:url("https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=2000");
 }
-p{
-  color: blue;
-  text-align: right;
-  }
+
 h1{
-  color: brown;
-  text-shadow: 1px 1px #FF0000; 
-  }
+  font-family:cursive;
+  text-overflow: 3px 3px;
+}
+
 h2{
-  text-decoration-line:underline ;
-  text-decoration-style:wavy ;
-  }
-p{
-  font-size: 400%;
- }
-p {
-  border-style:dotted;
-  border-width: 15px;
-  } 
-h1{
-      border-style: solid;
-      border-color: red green blueviolet yellow;
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:line-through;
+}
+
+
+h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.two {
+  border-style: double;
+  border-radius: 12px;
+  padding: 5px;
+  font-family:"Brush script MT",cursive;
+  text-overflow:1PX 1PX;
+}
+
+p.two{
+  width: 600px;
+  height: 300px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 15s;
+}
+
+@keyframes example {
+  0%   {background-color:aliceblue; left:0px; top:0px;}
+  25%  {background-color:antiquewhite; left:200px; top:0px;}
+  50%  {background-color:bisque; left:200px; top:200px;}
+  75%  {background-color:beige; left:0px; top:200px;}
+  100% {background-color:azure; left:0px; top:0px;}
+}
+
 
