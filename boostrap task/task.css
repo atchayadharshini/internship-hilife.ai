@@ -1,17 +1,12 @@
-#dheen1{
-    background-image: conic-gradient(red, yellow, green);
-  }
-
 
   #dheen2{
-    background-image: conic-gradient(rgb(8, 0, 255), rgb(0, 255, 153), green);
+    background-image: conic-gradient(rgb(0, 242, 255),violet,pink);
   }
-
-
+  
   #dheen3{
-    background-image: conic-gradient(rgb(8, 0, 255), rgb(179, 0, 255), rgb(128, 0, 2));
+    background-image: conic-gradient(rgb(180, 130, 238),aqua,pink);
   }
 
   #dheen4{
-    background-image: conic-gradient(rgb(255, 0, 191), rgb(4, 255, 0), rgb(58, 0, 128));
+    background-image: conic-gradient(rgb(255, 0, 119),aqua,violet);
   }
